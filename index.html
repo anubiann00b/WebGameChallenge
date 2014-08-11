@@ -5,9 +5,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body class='body'>
-    <div class='textarea' id='textarea'>Please enter you name, adventurer!</div>
+    <div class='textarea' id='textarea'>
+      <div>Please enter you name, adventurer!</div>
+    </div>
     <br />
-    <input type="text" id="entry" style="width:205px" />
-    <button onclick="update()">Submit</button>
+    <div><input type="text" id="entry" style="width:205px" onkeydown="if(event.keyCode == 13) { update(); } " /></div>
   </body>
 </HTML>
