@@ -9,8 +9,11 @@ function update() {
             addText("Welcome, " + name);
             state = "intro";
             break;
+        default:
+            addText(name + " says, '" + entry + "'");
+            break;
     }
-    
+
     refocus();
 }
 
