@@ -10,8 +10,7 @@ function update() {
             state = "intro";
             break;
     }
-
-
+    
     refocus();
 }
 
