@@ -1,3 +1,3 @@
 function update() {
-    document.getElementById('textarea').innerHTML = "Hi";
+    document.getElementById('textarea').innerHTML += "Hi";
 }
